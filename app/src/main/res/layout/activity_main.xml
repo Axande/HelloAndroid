@@ -15,10 +15,9 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1"
             android:background="@color/bk1"
             android:fontFamily="@string/font_family"
-            android:paddingTop="4dp"
+            android:padding="@dimen/padding"
             android:text="@string/title"
             android:textAlignment="center"
             android:textColor="@color/text_color"
@@ -31,7 +30,7 @@
             android:layout_width="@android:dimen/app_icon_size"
             android:layout_height="@android:dimen/app_icon_size"
             android:src="@drawable/udacity"
-            android:layout_marginLeft="72dp"
+            android:layout_marginStart="@dimen/logo_margin"
             />
 
 
@@ -44,7 +43,7 @@
         android:layout_height="0dp"
         android:layout_weight="10"
         android:scaleType="centerCrop"
-        android:src="@drawable/map"/>
+        android:src="@drawable/map" />
 
 
     <TextView
@@ -53,7 +52,7 @@
         android:layout_height="wrap_content"
         android:background="@color/bk1"
         android:fontFamily="@string/font_family"
-        android:padding="5dp"
+        android:padding="@dimen/padding"
         android:text="@string/website"
         android:textAlignment="center"
         android:textSize="@dimen/dimen_normal_text"
@@ -70,7 +69,7 @@
             android:layout_weight="1"
             android:background="@color/bk2"
             android:fontFamily="@string/font_family"
-            android:padding="5dp"
+            android:padding="@dimen/padding"
             android:text="@string/loc1"
             android:textAlignment="center"
             android:textSize="@dimen/dimen_normal_text"
@@ -83,7 +82,7 @@
             android:layout_weight="1"
             android:background="@color/bk2"
             android:fontFamily="@string/font_family"
-            android:padding="5dp"
+            android:padding="@dimen/padding"
             android:text="@string/loc2"
             android:textAlignment="center"
             android:textSize="@dimen/dimen_normal_text"
@@ -96,7 +95,7 @@
         android:layout_height="wrap_content"
         android:background="@color/bk1"
         android:fontFamily="@string/font_family"
-        android:padding="5dp"
+        android:padding="@dimen/padding"
         android:text="@string/phone"
         android:textSize="@dimen/dimen_small_text"
         android:textAlignment="center"
