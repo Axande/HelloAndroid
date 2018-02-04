@@ -5,4 +5,5 @@
     <dimen name="dimen_small_text">13sp</dimen>
     <dimen name="padding">4dp</dimen>
     <dimen name="logo_margin">72dp</dimen>
+    <dimen name="title_margin">8dp</dimen>
 </resources>
